@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "806504364016",
+    "project_id": "nxplay-333e0",
+    "storage_bucket": "nxplay-333e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806504364016:android:52da21eb83818fd0980f35",
+        "android_client_info": {
+          "package_name": "com.newagedevs.nx_play"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806504364016-6ba7it5h9098ppdup753eidhmeqsqjd3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.newagedevs.nx_play",
+            "certificate_hash": "74a7f920dec609dfd6991997c512cbb87b44cd26"
+          }
+        },
+        {
+          "client_id": "806504364016-p7jnhj9f701k6spdughj5vpnf490oj8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxcVMqMudIbM03_Sl5FXN4MCXSyEH3O4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806504364016-p7jnhj9f701k6spdughj5vpnf490oj8u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
