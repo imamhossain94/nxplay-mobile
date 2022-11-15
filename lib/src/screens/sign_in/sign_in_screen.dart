@@ -219,26 +219,26 @@ class _SignInScreenState extends State<SignInScreen> {
   }
 
   void github(BuildContext context) async {
-    try{
-      showLoading();
-      GithubAuthService githubAuthService
-      = new GithubAuthService(context: context);
-      if (await githubAuthService.githubSignIn() == true) {
-        params.clear();
-        print(FirebaseMessaging().getToken());
-        params['fcm_token'] = await FirebaseMessaging().getToken();
-        UpdateProfileResponse updateProfileResponse
-        = await NxPlayAuthServices().updateUserProfile(params);
-        EasyLoading.dismiss();
-        Navigator.pushReplacementNamed(context, AppConstants.rHomeScreen);
-      } else {
-        EasyLoading.dismiss();
-        _appPlugin.flushInfo(context, githubAuthService.error);
-      }
-    }catch (e){
-      EasyLoading.dismiss();
-      _appPlugin.flushInfo(context, e);
-    }
+    // try{
+    //   showLoading();
+    //   GithubAuthService githubAuthService
+    //   = new GithubAuthService(context: context);
+    //   if (await githubAuthService.githubSignIn() == true) {
+    //     params.clear();
+    //     print(FirebaseMessaging().getToken());
+    //     params['fcm_token'] = await FirebaseMessaging().getToken();
+    //     UpdateProfileResponse updateProfileResponse
+    //     = await NxPlayAuthServices().updateUserProfile(params);
+    //     EasyLoading.dismiss();
+    //     Navigator.pushReplacementNamed(context, AppConstants.rHomeScreen);
+    //   } else {
+    //     EasyLoading.dismiss();
+    //     _appPlugin.flushInfo(context, githubAuthService.error);
+    //   }
+    // }catch (e){
+    //   EasyLoading.dismiss();
+    //   _appPlugin.flushInfo(context, e);
+    // }
   }
 
   void nxPlay(BuildContext context) async {

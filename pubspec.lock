@@ -21,7 +21,7 @@ packages:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.6.1"
+    version: "2.8.1"
   bloc:
     dependency: "direct main"
     description:
@@ -56,7 +56,7 @@ packages:
       name: charcode
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.2.0"
+    version: "1.3.1"
   clock:
     dependency: transitive
     description:
@@ -237,13 +237,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_auth_core:
-    dependency: transitive
-    description:
-      name: flutter_auth_core
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.0.4"
   flutter_bloc:
     dependency: transitive
     description:
@@ -331,13 +324,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_webview_plugin:
-    dependency: transitive
-    description:
-      name: flutter_webview_plugin
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.3.11"
   fluttertoast:
     dependency: transitive
     description:
@@ -352,13 +338,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "8.12.0"
-  github_auth:
-    dependency: "direct main"
-    description:
-      name: github_auth
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.0.4"
   google_fonts:
     dependency: "direct main"
     description:
@@ -477,7 +456,7 @@ packages:
       name: meta
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.3.0"
+    version: "1.7.0"
   mime:
     dependency: transitive
     description:
@@ -492,13 +471,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0"
-  oauth1:
-    dependency: transitive
-    description:
-      name: oauth1
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.6"
   package_info:
     dependency: transitive
     description:
@@ -720,7 +692,7 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.3.0"
+    version: "0.4.2"
   timeago:
     dependency: "direct main"
     description:

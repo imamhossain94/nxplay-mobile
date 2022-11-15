@@ -78,7 +78,6 @@ flutter run
 
 Visit This Repo: 
 https://github.com/itsrafsanjani/nxplay
-https://github.com/newagedevs/nxplay
 
 
 ## 🧑 Author
